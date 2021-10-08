@@ -1,0 +1,77 @@
+.layout {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 33, 53);
+    padding-right: 9px;
+}
+.content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: #212c42;
+    border-radius: 50px 50px 0px 0px;
+    height: 100%;
+    min-height: 100vh;
+    color: white;
+    padding: 50px;
+}
+.head {
+    height: 84px;
+}
+.flex {
+    display: flex;
+}
+.bar {
+    width: 240px;
+    max-width: 240px;
+    min-width: 240px;
+}
+
+@media screen and (min-width: 650px) and (max-width: 959px) {
+    .bar {
+        width: 9px;
+        max-width: 9px;
+        min-width: 9px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 650px) {
+    .bar {
+        width: 9px;
+        max-width: 9px;
+        min-width: 9px;
+    }
+    .content {
+        padding: 30px;
+        padding-bottom: 100px;
+    }
+}
+@media screen and (min-width: 341px) and (max-width: 480px) {
+    .bar {
+        width: 9px;
+        max-width: 9px;
+        min-width: 9px;
+    }
+    .content {
+        padding: 30px;
+        padding-bottom: 100px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .bar {
+        width: 9px;
+        max-width: 9px;
+        min-width: 9px;
+    }
+    .content {
+        padding: 10px;
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+}

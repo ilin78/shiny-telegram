@@ -1,0 +1,19 @@
+.head {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+
+@media screen and (min-width: 650px) and (max-width: 959px) {
+    .head {
+        line-height: 37px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .head {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffffbb;
+    height: 86px;
+    max-width: 1120px;
+    margin-left: 290px;
+    margin-right: 40px;
+}
+
+.exit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 90px;
+}
+
+.next a{
+    color: white;
+}
+@media (min-width: 960px) and (max-width: 1199px) {
+
+}
+@media screen and (min-width: 650px) and (max-width: 959px) {
+    .content {
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .content {
+        margin-left: 40px;
+    }
+}
