@@ -1,0 +1,16 @@
+{
+  "/404": "pages/404.html",
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/activity": "pages/activity.html",
+  "/api/hello": "pages/api/hello.js",
+  "/dashboard": "pages/dashboard.html",
+  "/": "pages/index.html",
+  "/landing": "pages/landing.html",
+  "/marathon": "pages/marathon.html",
+  "/market": "pages/market.html",
+  "/pr": "pages/pr.html",
+  "/shop": "pages/shop.html",
+  "/structure": "pages/structure.js",
+  "/_error": "pages/_error.js"
+}
